@@ -6,6 +6,9 @@ import {
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 
+import { Toaster } from '#/components/ui/sonner'
+import { AppNav } from '#/components/layout/app-nav'
+
 import TanStackQueryDevtools from '../integrations/tanstack-query/devtools'
 
 import appCss from '../styles.css?url'
@@ -47,7 +50,9 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body>
+        <AppNav />
         {children}
+        <Toaster />
         <TanStackDevtools
           config={{
             position: 'bottom-right',

@@ -12,3 +12,8 @@ dist-ssr
 __unconfig*
 todos.json
 .idea
+data
+*.db
+*.db-journal
+*.db-wal
+*.db-shm

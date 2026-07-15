@@ -16,11 +16,5 @@
   "routerOnly": false,
   "version": 1,
   "framework": "react",
-  "chosenAddOns": [
-    "eslint",
-    "tanstack-query",
-    "shadcn",
-    "table",
-    "drizzle"
-  ]
+  "chosenAddOns": ["eslint", "tanstack-query", "shadcn", "table", "drizzle"]
 }
