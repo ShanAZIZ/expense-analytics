@@ -1,6 +1,9 @@
 import { Link } from '@tanstack/react-router'
 
-const navItems = [{ label: 'Import', to: '/' as const }]
+const navItems = [
+  { label: 'Import', to: '/' as const },
+  { label: 'Transactions', to: '/transactions' as const },
+]
 
 export function AppNav() {
   return (
